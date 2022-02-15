@@ -1,0 +1,172 @@
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
+.izquierda {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #3E82FF;
+    width: 46.38%;
+    
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.parrafo {
+    
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.04em;
+    margin-right: 40px;
+    margin-top: 70px;
+    
+    
+}
+
+.izquierda img {
+    max-width: 65%;
+     
+}
+
+
+.imagen {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    margin-right: -140px;
+    margin-bottom: 0;
+}
+
+.derecha {
+    background-color: white;
+    width: 53.62%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 15px;
+}
+
+.derecha img {
+    max-width: 170px;
+    
+}
+
+.registrar {
+    color: #3e82ff;
+    border: solid;
+    border-radius: 15px;
+    
+    letter-spacing: -0.5px;
+    width: 210px;
+    font-size: 23px;
+    text-align: center;
+    border-width: 2px;
+    border-color: #3e82ff;
+}
+
+.header :hover {
+    cursor: pointer;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    font-size: 23px;
+}
+
+fieldset {
+    border: none;
+    width: 350px;
+}
+
+.formulario__encabezado {
+    display: flex;
+    justify-content: center;    
+}
+
+.formulario__encabezado legend {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 5rem;
+    color: #3c78e7;
+    
+
+    
+}
+
+.campos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    border-bottom: #D4D4D4 solid 1.5px;
+  
+}
+
+.campos input {
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+::placeholder {
+    color: rgb(212, 212, 212);
+    font-weight: 100;
+
+}
+
+.botoncito {
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    margin-top: 4rem; 
+}
+
+.botoncito :hover {
+    cursor: pointer;
+}
+
+.botoncito input {
+    width: 100%;
+    border-radius: 15px;
+    color: white;
+    background-color: #3e82ff;
+    border-style: none;
+    font-weight: 100;
+}
+
+.recuerdeAmigo {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: rgb(8, 8, 117);
+    font-weight: 300;
+    margin-top: .5rem;
+    text-decoration: none;
+}
+
+.recuerdeAmigo a {
+    text-decoration: none;
+}
